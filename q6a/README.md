@@ -25,10 +25,10 @@ SELECT primary_title, tr.average_rating, te.season_number, te.episode_number
             JOIN title_episode te on tb.tconst = te.tconst
             JOIN title_ratings tr on te.tconst = tr.tconst
             WHERE te.parent_tconst = (
-                select tconst\n
-                from title_basics\n
-                where title_type = 'tvSeries'\n
-                  and primary_title='Breaking Bad')\n
+                select tconst
+                from title_basic
+                where title_type = 'tvSeries'
+                  and primary_title='Breaking Bad')
             ORDER BY average_rating DESC LIMIT 5
 ```
 
