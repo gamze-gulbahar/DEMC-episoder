@@ -1,4 +1,4 @@
-# Soru 6a
+# Soru 6c
 
 ### On Kosullar
 
@@ -43,9 +43,3 @@ Primary Title : Face Off ---- Number of Votes : 45635 ---- Season Number : 4 ---
 Primary Title : Granite State ---- Number of Votes : 34418 ---- Season Number : 5 ---- Episode Number : 15 
 Primary Title : To'hajiilee ---- Number of Votes : 34214 ---- Season Number : 5 ---- Episode Number : 13 
 ```
-
-
-
-
-
-

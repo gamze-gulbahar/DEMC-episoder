@@ -1,4 +1,4 @@
-# Soru 6a
+# Soru 6b
 
 ### On Kosullar
 
