@@ -13,10 +13,12 @@ Canli database giris bilgilerini raporuma ekledim. Oradan ulasarak ekleyebilirsi
 
 Target dizinin altinda olusan jari asagidaki komut ile calistirabilirsiniz.
 
-java -jar target/q6a-0.0.1-SNAPSHOT.jar 
+`java -jar target/q6a-0.0.1-SNAPSHOT.jar `
 
 ### Uygulama Icerisinde calistirilan sorgu
+
 Bu java uygulamasi dbye baglanarak asagidaki sorguyu calistiriyor.
+
 ```
 SELECT primary_title, tr.average_rating, te.season_number, te.episode_number
             FROM title_basics tb
@@ -31,6 +33,7 @@ SELECT primary_title, tr.average_rating, te.season_number, te.episode_number
 ```
 
 ### Cikti
+
 Ugulama loglarinda Breaking Bad dizisinin en yuksek ratinge sahib ilk 5 bolumunu asagidaki gibi gormelisiniz.
  
 ```
