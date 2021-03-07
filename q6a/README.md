@@ -6,7 +6,7 @@ Oncelikle `application.properties` dosyasina dogru bir database baglanti linki, 
 Canli database giris bilgilerini raporuma ekledim. Oradan ulasarak ekleyebilirsiniz.
  
 ### Calistirma
-`application.properties` dosyasi dogru dbye baglancak sekilde ayarlandiktan sonra asagidaki komut ile jar olusturunuz.
+`application.properties` dosyasi dogru dbye baglanacak sekilde ayarlandiktan sonra asagidaki komut ile jar olusturunuz.
 
 
 `mvn clean package`
@@ -34,7 +34,7 @@ SELECT primary_title, tr.average_rating, te.season_number, te.episode_number
 
 ### Cikti
 
-Ugulama loglarinda Breaking Bad dizisinin en yuksek ratinge sahib ilk 5 bolumunu asagidaki gibi gormelisiniz.
+Ugulama loglarinda Breaking Bad dizisinin en yuksek ratinge sahip ilk 5 bolumunu asagidaki gibi gorebilirsiniz.
  
 ```
 Primary Title : Ozymandias ---- Average Rating : 10.0 ---- Season Number : 5 ---- Episode Number : 14 
